@@ -1,0 +1,199 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="net1" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <page id="n0">
+      <place id="p_7">
+        <name>
+          <text>p_7</text>
+        </name>
+      </place>
+      <place id="source">
+        <name>
+          <text>source</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="p_5">
+        <name>
+          <text>p_5</text>
+        </name>
+      </place>
+      <place id="p_8">
+        <name>
+          <text>p_8</text>
+        </name>
+      </place>
+      <place id="p_3">
+        <name>
+          <text>p_3</text>
+        </name>
+      </place>
+      <place id="p_11">
+        <name>
+          <text>p_11</text>
+        </name>
+      </place>
+      <place id="p_13">
+        <name>
+          <text>p_13</text>
+        </name>
+      </place>
+      <place id="p_9">
+        <name>
+          <text>p_9</text>
+        </name>
+      </place>
+      <place id="p_6">
+        <name>
+          <text>p_6</text>
+        </name>
+      </place>
+      <place id="p_10">
+        <name>
+          <text>p_10</text>
+        </name>
+      </place>
+      <place id="p_14">
+        <name>
+          <text>p_14</text>
+        </name>
+      </place>
+      <place id="p_12">
+        <name>
+          <text>p_12</text>
+        </name>
+      </place>
+      <place id="p_4">
+        <name>
+          <text>p_4</text>
+        </name>
+      </place>
+      <place id="sink">
+        <name>
+          <text>sink</text>
+        </name>
+      </place>
+      <transition id="n">
+        <name>
+          <text>n</text>
+        </name>
+      </transition>
+      <transition id="o">
+        <name>
+          <text>o</text>
+        </name>
+      </transition>
+      <transition id="m">
+        <name>
+          <text>m</text>
+        </name>
+      </transition>
+      <transition id="h">
+        <name>
+          <text>h</text>
+        </name>
+      </transition>
+      <transition id="g">
+        <name>
+          <text>g</text>
+        </name>
+      </transition>
+      <transition id="b">
+        <name>
+          <text>b</text>
+        </name>
+      </transition>
+      <transition id="c">
+        <name>
+          <text>c</text>
+        </name>
+      </transition>
+      <transition id="d">
+        <name>
+          <text>d</text>
+        </name>
+      </transition>
+      <transition id="p">
+        <name>
+          <text>p</text>
+        </name>
+      </transition>
+      <transition id="a">
+        <name>
+          <text>a</text>
+        </name>
+      </transition>
+      <transition id="e">
+        <name>
+          <text>e</text>
+        </name>
+      </transition>
+      <transition id="i">
+        <name>
+          <text>i</text>
+        </name>
+      </transition>
+      <transition id="l">
+        <name>
+          <text>l</text>
+        </name>
+      </transition>
+      <transition id="q">
+        <name>
+          <text>q</text>
+        </name>
+      </transition>
+      <transition id="k">
+        <name>
+          <text>k</text>
+        </name>
+      </transition>
+      <transition id="j">
+        <name>
+          <text>j</text>
+        </name>
+      </transition>
+      <transition id="f">
+        <name>
+          <text>f</text>
+        </name>
+      </transition>
+      <arc id="-9223371862431396990" source="p" target="p_13"/>
+      <arc id="-9223371862431443452" source="p_6" target="q"/>
+      <arc id="174423378822" source="p_13" target="j"/>
+      <arc id="174423334022" source="p_8" target="c"/>
+      <arc id="-9223371862431396983" source="h" target="p_8"/>
+      <arc id="-9223371862431397109" source="p_3" target="b"/>
+      <arc id="174423378703" source="n" target="p_10"/>
+      <arc id="-9223371862431396976" source="p_12" target="h"/>
+      <arc id="-9223371862431397102" source="p_10" target="m"/>
+      <arc id="174423378717" source="b" target="p_10"/>
+      <arc id="-9223371862431443424" source="d" target="p_7"/>
+      <arc id="174423332388" source="k" target="p_3"/>
+      <arc id="174423378724" source="p_3" target="n"/>
+      <arc id="-9223371862431441755" source="c" target="sink"/>
+      <arc id="-9223371862431443417" source="p_4" target="d"/>
+      <arc id="-9223371862431397081" source="p_3" target="i"/>
+      <arc id="174423378731" source="i" target="p_9"/>
+      <arc id="-9223371862431397074" source="m" target="p_9"/>
+      <arc id="-9223371862431397067" source="p_9" target="e"/>
+      <arc id="-9223371862431397053" source="p_3" target="o"/>
+      <arc id="-9223371862431396997" source="p_11" target="l"/>
+      <arc id="174423378759" source="o" target="p_9"/>
+      <arc id="-9223371862431397039" source="e" target="p_11"/>
+      <arc id="174423332437" source="g" target="p_4"/>
+      <arc id="174423378773" source="f" target="p_13"/>
+      <arc id="-9223371862431443361" source="a" target="p_6"/>
+      <arc id="174423378787" source="j" target="p_12"/>
+      <arc id="174423332458" source="q" target="p_5"/>
+      <arc id="174423378794" source="p_11" target="f"/>
+      <arc id="-9223371862431397011" source="l" target="p_14"/>
+      <arc id="174423332465" source="source" target="a"/>
+      <arc id="-9223371862431443340" source="p_7" target="k"/>
+      <arc id="-9223371862431443333" source="p_5" target="g"/>
+      <arc id="174423378815" source="p_14" target="p"/>
+    </page>
+  </net>
+</pnml>
